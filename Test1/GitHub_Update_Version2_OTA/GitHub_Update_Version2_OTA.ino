@@ -1,3 +1,5 @@
+//de tali
+
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <HTTPUpdate.h>
@@ -61,6 +63,7 @@ void loop() {
             }
         }
     }
+    Serial.println("Jamalay ki bhava");
 }
 
 void reconnect() {
