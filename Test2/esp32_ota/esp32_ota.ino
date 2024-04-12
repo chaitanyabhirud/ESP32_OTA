@@ -9,10 +9,10 @@ const char * password = "cgb@411027";
 
 int LED_BUILTIN;
 String FirmwareVer = {
-  "1.0"
+  "2.0"
 };
-#define URL_fw_Version "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test2/bin_version.txt?token=GHSAT0AAAAAACPL6BPGES2Y4XVVXAPBZSYSZQZKEXQ"
-#define URL_fw_Bin "https://github.com/chaitanyabhirud/ESP32_OTA/blob/4b83286d213462689665c8c15c5fb7e6a38bc813/Test2/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test2/bin-version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test2/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"

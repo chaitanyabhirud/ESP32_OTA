@@ -1,4 +1,4 @@
-//de tali
+
 
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -15,8 +15,8 @@ String FirmwareVer = {
     "1.0"
 };
 
-#define URL_fw_Version "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test1/bin-version.txt?token=GHSAT0AAAAAACPL6BPGUUKUD2BLLFERPP7AZQYDMLQ"
-#define URL_fw_Bin "https://github.com/chaitanyabhirud/ESP32_OTA/raw/d5a523e4fc9ee37cc8d358b01f9793adb840d1f2/Test1/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test1/bin-version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/chaitanyabhirud/ESP32_OTA/main/Test1/fw.bin"
 
 void setup() {
 
@@ -63,7 +63,7 @@ void loop() {
             }
         }
     }
-    Serial.println("Jamalay ki bhava");
+    
 }
 
 void reconnect() {
@@ -150,3 +150,5 @@ int FirmwareVersionCheck(void) {
     }
     return 0;
 }
+
+
